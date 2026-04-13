@@ -18,13 +18,13 @@ $addonsText = count($addons) ? implode(', ', array_map('bb_h', $addons)) : 'None
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Order Confirmation - Byte Bistro</title>
+  <title>Order Confirmation - El Turco</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="receipt-page">
 
 <header>
-  <h1>Byte Bistro</h1>
+  <h1>El Turco</h1>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -53,8 +53,8 @@ $addonsText = count($addons) ? implode(', ', array_map('bb_h', $addons)) : 'None
 <hr>
 
 <footer>
-  <p>Created by Arhan Us | info@bytebistro.com | 541-740-2126</p>
-  <p>© 2026 Byte Bistro. All rights reserved.</p>
+  <p>Created by Arhan Us | info@elturco.com | 541-740-2126</p>
+  <p>© 2026 El Turco. All rights reserved.</p>
 </footer>
 
 </body>
