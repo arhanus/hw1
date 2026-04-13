@@ -1,0 +1,232 @@
+:root {
+  --accent: #e07020;
+  --text: #333333;
+  --link: #0066cc;
+  --border: #cccccc;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 1.5rem 2rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text);
+  background: #fff;
+  max-width: 52rem;
+}
+
+header {
+  padding-bottom: 0.75rem;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+header h1 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+body > hr:first-of-type {
+  margin: 0 0 1.25rem;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+main + hr {
+  margin: 2rem 0 0;
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+nav a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+main > h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.order-page main > h2 {
+  color: var(--accent);
+}
+
+.menu-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.75rem;
+  font-size: 0.95rem;
+}
+
+.menu-page caption {
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.menu-page th,
+.menu-page td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.65rem;
+  vertical-align: top;
+}
+
+.menu-page thead th {
+  background: #f5f5f5;
+  text-align: left;
+}
+
+.menu-page .item-image {
+  width: 7rem;
+}
+
+.menu-page .item-image img {
+  display: block;
+  width: 100%;
+  max-width: 6.5rem;
+  height: auto;
+  border-radius: 3px;
+}
+
+.home-page section {
+  margin-bottom: 1.25rem;
+}
+
+.reviews-page article {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.reviews-page article:last-of-type {
+  border-bottom: none;
+}
+
+.reviews-page article h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+fieldset {
+  margin: 0 0 1.25rem;
+  padding: 0.75rem 1rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+
+legend {
+  padding: 0 0.35rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+fieldset p {
+  margin: 0.65rem 0 0;
+}
+
+fieldset p:first-of-type {
+  margin-top: 0.35rem;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="time"],
+select,
+textarea {
+  margin-top: 0.25rem;
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  max-width: 100%;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+  min-width: min(100%, 18rem);
+}
+
+textarea {
+  width: min(100%, 28rem);
+  vertical-align: top;
+  resize: vertical;
+}
+
+fieldset p label:not([for]) {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 0.35rem;
+}
+
+input[type="submit"] {
+  margin-top: 0.25rem;
+  padding: 0.5rem 1.25rem;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  filter: brightness(1.05);
+}
+
+.receipt-page .receipt-block {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: #fafafa;
+}
+
+footer {
+  margin-top: 1rem;
+  padding-top: 0;
+  border-top: none;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+footer p {
+  margin: 0.35rem 0 0;
+}
+
+footer p:first-child {
+  margin-top: 0;
+}
