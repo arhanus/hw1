@@ -53,7 +53,7 @@ $addonsText = count($addons) ? implode(', ', array_map('bb_h', $addons)) : 'None
 <hr>
 
 <footer>
-  <p>Created by Arhan Us | info@bytebistro.com | (541) 740-2126</p>
+  <p>Created by Arhan Us | info@bytebistro.com | 541-740-2126</p>
   <p>© 2026 Byte Bistro. All rights reserved.</p>
 </footer>
 
